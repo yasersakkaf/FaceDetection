@@ -2,15 +2,24 @@
 
 Perform fast, accurate face detection with OpenCV using a pre-trained deep learning face detector model shipped with the library.
 
-#### Face detection in images.
+### Face detection in images.
 
-Usage: `python detect_faces.py -p models/deploy.prototxt.txt -m models/res10_300x300_ssd_iter_140000.caffemodel -i images/boys.jpg`
+Usage Example:`python detect_faces.py -p models/deploy.prototxt.txt -m models/res10_300x300_ssd_iter_140000.caffemodel -i images/boys.jpg`
 
-#### Face detection in webcam.
+#### Example Input:
+![alt_text](https://github.com/yasersakkaf/FaceDetection/blob/master/images/boys.jpg)
 
-Usage: `python detect_faces_video.py -p models/deploy.prototxt.txt -m models/res10_300x300_ssd_iter_140000.caffemodel`
+#### Example Output:
+![alt text](https://github.com/yasersakkaf/FaceDetection/blob/master/images/Output_screenshot_02.10.2019.png)
 
 
-#### Face detection in videos.
 
-Usage: `python detect_faces_video.py -p models/deploy.prototxt.txt -m models/res10_300x300_ssd_iter_140000.caffemodel -v some_video.mp4`
+
+### Face detection in webcam.
+
+Usage Example:`python detect_faces_video.py -p models/deploy.prototxt.txt -m models/res10_300x300_ssd_iter_140000.caffemodel`
+
+
+### Face detection in videos.
+
+Usage Example:`python detect_faces_video.py -p models/deploy.prototxt.txt -m models/res10_300x300_ssd_iter_140000.caffemodel -v some_video.mp4`
